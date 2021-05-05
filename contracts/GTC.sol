@@ -5,16 +5,16 @@ import "./SafeMath.sol";
 
 contract GTC {
     /// @notice EIP-20 token name for this token
-    string public constant name = "Gitcoin";
+    string public constant name = "Gopher Coin";
 
     /// @notice EIP-20 token symbol for this token
-    string public constant symbol = "GTC";
+    string public constant symbol = "GOPH";
 
     /// @notice EIP-20 token decimals for this token
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint public totalSupply = 3_000_000e18; // 3 million GTC
+    uint public totalSupply = 100_000_000e18; // 3 million GTC
 
     /// @notice Address which may mint new tokens
     address public minter;
